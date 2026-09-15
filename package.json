@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Corridor — hub repo: docs, the web app, and the Midnight issuer-registry contract. Other components live in Sconce-Labs/corridor-{contracts,circuits,sdk}.",
+  "description": "Corridor \u2014 hub repo: docs, the web app, and the Midnight issuer-registry contract. Other components live in Sconce-Labs/corridor-{contracts,circuits,sdk}.",
   "license": "Apache-2.0",
   "scripts": {
     "compile": "compact compile contracts/corridor.compact contracts/managed/corridor",
@@ -28,6 +28,8 @@
     "@midnight-ntwrk/midnight-js-utils": "4.1.1",
     "@midnight-ntwrk/wallet-sdk": "1.2.0",
     "@scure/bip39": "2.2.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "rxjs": "^7.8.2",
     "ws": "^8.21.1"
   },
@@ -43,5 +45,11 @@
   "overrides": {
     "@midnight-ntwrk/onchain-runtime-v3": "3.0.0"
   },
-  "keywords": ["midnight", "stellar", "zero-knowledge", "privacy", "kyc"]
+  "keywords": [
+    "midnight",
+    "stellar",
+    "zero-knowledge",
+    "privacy",
+    "kyc"
+  ]
 }
